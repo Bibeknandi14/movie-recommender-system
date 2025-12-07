@@ -1,5 +1,7 @@
 # 🎬 Movie Recommender System
 
+🔗 **Live App:** https://movie-recommender-system-infinity2.streamlit.app
+
 A Streamlit-based movie recommendation app that suggests the **top 5 similar movies** using cosine similarity and preprocessed metadata.  
 The system is fast, lightweight, and works entirely offline.
 
