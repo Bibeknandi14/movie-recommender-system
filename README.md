@@ -1,18 +1,26 @@
-🎬 Movie Recommender System
+# 🎬 Movie Recommender System
 
-A Streamlit-based movie recommendation app that suggests the top 5 similar movies using cosine similarity and preprocessed metadata. The system is fast, lightweight, and works entirely offline.
+A Streamlit-based movie recommendation app that suggests the **top 5 similar movies** using cosine similarity and preprocessed metadata.  
+The system is fast, lightweight, and works entirely offline.
 
-🚀 Features
+---
 
-✅ Content-based recommendations using cosine similarity
-🎥 Top 5 similar movie suggestions
-🖼️ Poster display using dataset metadata
-⚡ Instant results (precomputed similarity)
-📦 100% offline — no external APIs needed
-🌐 Ready for Streamlit Cloud deployment
+## 🚀 Features
 
-⚙️ Setup Instructions
-1️⃣ Clone the repository
+- 🎥 Content-based recommendations using cosine similarity  
+- 🎯 Top 5 similar movie suggestions  
+- 🖼️ Poster display using dataset metadata  
+- ⚡ Instant results (precomputed similarity)  
+- 📦 100% offline — no external APIs needed  
+- 🌐 Ready for Streamlit Cloud deployment  
+
+---
+
+## ⚙️ Setup Instructions
+
+### **1️⃣ Clone the repository**
+
+```bash
 git clone https://github.com/Bibeknandi14/movie-recommender-system.git
 cd movie-recommender-system
 
@@ -22,17 +30,13 @@ pip install -r requirements.txt
 3️⃣ Run the Streamlit App
 streamlit run app.py
 
+
 🧠 How It Works
-
-User selects a movie from the dropdown
-
-System finds its index in the dataset
-
-Cosine similarity scores are computed from a preprocessed matrix
-
-Top 5 closest movies are selected
-
-Titles + Posters are displayed in columns
+1.User selects a movie from the dropdown
+2.The system finds its index in the dataset
+3.Cosine similarity scores are computed from a preprocessed matrix
+4.Top 5 closest movies are selected
+5.Titles + posters are displayed in columns
 
 📂 Project Structure
 movie-recommender-system/
@@ -46,19 +50,18 @@ movie-recommender-system/
 │── setup.sh              # Streamlit Cloud setup
 └── README.md
 
-🔮 Future Improvements
 
+🔮 Future Improvements
 ⭐ Add TMDB API for real-time posters
 ⭐ Add genre filtering
 ⭐ Add movie description & rating display
 ⭐ Add autocomplete search
 ⭐ Add collaborative filtering (hybrid model)
 
-🤝 Contributing
 
+🤝 Contributing
 Pull requests are welcome.
-Feel free to open issues for new ideas or bugs.
+For major changes, please open an issue first.
 
 📜 License
-
 MIT License — free for personal and academic use.
